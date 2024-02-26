@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header_top">
+          <h2>devjobs</h2>
+          <div class="theme">
+            <img src="./img/icons/light.svg" alt="light" class="light" />
+            <div class="theme_tog"></div>
+            <img src="./img/icons/dark.svg" alt="dark" class="dark" />
+          </div>
+        </div>
+        <div class="header_search">
+          <div class="by_title">
+            <img src="./img/icons/title.svg" alt="title" />
+           <input
+              type="text"
+              placeholder="Filter by title, companies, expertise…"
+            />
+          </div>
+          <div class="by_region">
+            <img src="./img/icons/region.svg" alt="region" />
+            <input type="text" placeholder="Filter by location…" />
+          </div>
+          <div class="by_time">
+            <input type="checkbox" id="time_check" />
+            <label for="time_check">Full Time</label>
+          </div>
+          <button class="search_btn">Search</button>
+        </div>
+        <div class="header-mob_search">
+          <input type="text" placeholder="Filter by title…" />
+          <div class="btns">
+            <button class="filter-btn">
+              <img src="./img/icons/filter.svg" alt="filter" />
+            </button>
+            <button>
+              <img src="./img/icons/search.svg" alt="search" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container con-card">
+      <div class="cards-container"></div>
+    </div>
+    <div class="load-more">
+      <button class="load">Load More</button>
+    </div>
+
+    <div class="modal">
+      <div class="modal-content">
+        <div class="by_region">
+          <img src="./img/icons/region.svg" alt="region" />
+          <input type="text" placeholder="Filter by location…" />
+        </div>
+        <div class="by_time">
+          <input type="checkbox" id="time_check" />
+          <label for="time_check">Full Time</label>
+        </div>
+        <button class="search_btn">Search</button>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
